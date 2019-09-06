@@ -1,0 +1,30 @@
+{
+  "name": "basic_http",
+  "version": "0.0.0",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "5.3.0"
+  },
+  "description": "A simple html",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Ethan Henson",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X-Shadles/Simple-HTTP-Assignment-Start.git"
+  },
+  "bugs": {
+    "url": "https://github.com/X-Shadles/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/X-Shadles/Simple-HTTP-Assignment-Start#readme"
+}
